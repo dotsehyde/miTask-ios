@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D17E13D28C620D800002EA4 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D17E13B28C620D800002EA4 /* DataModel.xcdatamodeld */; };
+		7D17E13F28C6217900002EA4 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D17E13E28C6217900002EA4 /* CoreDataManager.swift */; };
+		7D17E14528C6332E00002EA4 /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D17E14428C6332E00002EA4 /* HideKeyboard.swift */; };
+		7D17E14728C63B5C00002EA4 /* NewEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D17E14628C63B5C00002EA4 /* NewEntryView.swift */; };
+		7D32390628C76EDE008F106D /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D32390528C76EDE008F106D /* CheckboxStyle.swift */; };
+		7D32390828C770A7008F106D /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D32390728C770A7008F106D /* ItemView.swift */; };
+		7D32390A28C77A21008F106D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7D32390928C77A21008F106D /* README.md */; };
+		7D32390F28C77A6F008F106D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D32390C28C77A6F008F106D /* 1.png */; };
+		7D32391028C77A6F008F106D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D32390D28C77A6F008F106D /* 2.png */; };
+		7D32391128C77A6F008F106D /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D32390E28C77A6F008F106D /* 3.png */; };
+		7D349124286BAF0D00113709 /* TaskappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D349123286BAF0D00113709 /* TaskappApp.swift */; };
+		7D349128286BAF1000113709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D349127286BAF1000113709 /* Assets.xcassets */; };
+		7D34912B286BAF1000113709 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D34912A286BAF1000113709 /* Preview Assets.xcassets */; };
+		7D349139286BAFBD00113709 /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D349136286BAFBD00113709 /* sound-ding.mp3 */; };
+		7D34913A286BAFBD00113709 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D349137286BAFBD00113709 /* sound-rise.mp3 */; };
+		7D34913B286BAFBD00113709 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D349138286BAFBD00113709 /* sound-tap.mp3 */; };
+		7D349148286BB1B700113709 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D349147286BB1B700113709 /* ContentView.swift */; };
+		7DADA80D28732FE300E2CABF /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DADA80C28732FE300E2CABF /* Constant.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D17E13C28C620D800002EA4 /* DataMode;.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DataMode;.xcdatamodel"; sourceTree = "<group>"; };
+		7D17E13E28C6217900002EA4 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		7D17E14428C6332E00002EA4 /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
+		7D17E14628C63B5C00002EA4 /* NewEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryView.swift; sourceTree = "<group>"; };
+		7D32390528C76EDE008F106D /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyle.swift; sourceTree = "<group>"; };
+		7D32390728C770A7008F106D /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		7D32390928C77A21008F106D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7D32390C28C77A6F008F106D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		7D32390D28C77A6F008F106D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		7D32390E28C77A6F008F106D /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		7D349120286BAF0D00113709 /* Taskapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taskapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D349123286BAF0D00113709 /* TaskappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskappApp.swift; sourceTree = "<group>"; };
+		7D349127286BAF1000113709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D34912A286BAF1000113709 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D349136286BAFBD00113709 /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
+		7D349137286BAFBD00113709 /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		7D349138286BAFBD00113709 /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
+		7D349147286BB1B700113709 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D349149286BB20F00113709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7DADA80C28732FE300E2CABF /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D34911D286BAF0D00113709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D32390B28C77A39008F106D /* ss */ = {
+			isa = PBXGroup;
+			children = (
+				7D32390C28C77A6F008F106D /* 1.png */,
+				7D32390D28C77A6F008F106D /* 2.png */,
+				7D32390E28C77A6F008F106D /* 3.png */,
+			);
+			path = ss;
+			sourceTree = "<group>";
+		};
+		7D349117286BAF0D00113709 = {
+			isa = PBXGroup;
+			children = (
+				7D32390B28C77A39008F106D /* ss */,
+				7D32390928C77A21008F106D /* README.md */,
+				7D349122286BAF0D00113709 /* Taskapp */,
+				7D349121286BAF0D00113709 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D349121286BAF0D00113709 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D349120286BAF0D00113709 /* Taskapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D349122286BAF0D00113709 /* Taskapp */ = {
+			isa = PBXGroup;
+			children = (
+				7D349149286BB20F00113709 /* Info.plist */,
+				7D34913E286BB0E700113709 /* Data */,
+				7D34913F286BB0F800113709 /* Core */,
+				7D34913C286BB07D00113709 /* Sound */,
+				7D349123286BAF0D00113709 /* TaskappApp.swift */,
+				7D349142286BB11900113709 /* View */,
+				7D349127286BAF1000113709 /* Assets.xcassets */,
+				7D349129286BAF1000113709 /* Preview Content */,
+			);
+			path = Taskapp;
+			sourceTree = "<group>";
+		};
+		7D349129286BAF1000113709 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7D34912A286BAF1000113709 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D34913C286BB07D00113709 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				7D349136286BAFBD00113709 /* sound-ding.mp3 */,
+				7D349137286BAFBD00113709 /* sound-rise.mp3 */,
+				7D349138286BAFBD00113709 /* sound-tap.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		7D34913E286BB0E700113709 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7D17E13B28C620D800002EA4 /* DataModel.xcdatamodeld */,
+				7D17E13E28C6217900002EA4 /* CoreDataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7D34913F286BB0F800113709 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7D349141286BB10C00113709 /* Utils */,
+				7D349140286BB0FF00113709 /* Extension */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7D349140286BB0FF00113709 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7D17E14428C6332E00002EA4 /* HideKeyboard.swift */,
+				7D32390528C76EDE008F106D /* CheckboxStyle.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7D349141286BB10C00113709 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7DADA80C28732FE300E2CABF /* Constant.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7D349142286BB11900113709 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7D349147286BB1B700113709 /* ContentView.swift */,
+				7D17E14628C63B5C00002EA4 /* NewEntryView.swift */,
+				7D32390728C770A7008F106D /* ItemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D34911F286BAF0D00113709 /* Taskapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D349133286BAF1000113709 /* Build configuration list for PBXNativeTarget "Taskapp" */;
+			buildPhases = (
+				7D34911C286BAF0D00113709 /* Sources */,
+				7D34911D286BAF0D00113709 /* Frameworks */,
+				7D34911E286BAF0D00113709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taskapp;
+			productName = Taskapp;
+			productReference = 7D349120286BAF0D00113709 /* Taskapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D349118286BAF0D00113709 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					7D34911F286BAF0D00113709 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 7D34911B286BAF0D00113709 /* Build configuration list for PBXProject "Taskapp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D349117286BAF0D00113709;
+			productRefGroup = 7D349121286BAF0D00113709 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D34911F286BAF0D00113709 /* Taskapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D34911E286BAF0D00113709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D32390A28C77A21008F106D /* README.md in Resources */,
+				7D34912B286BAF1000113709 /* Preview Assets.xcassets in Resources */,
+				7D32391028C77A6F008F106D /* 2.png in Resources */,
+				7D32391128C77A6F008F106D /* 3.png in Resources */,
+				7D34913A286BAFBD00113709 /* sound-rise.mp3 in Resources */,
+				7D349128286BAF1000113709 /* Assets.xcassets in Resources */,
+				7D34913B286BAFBD00113709 /* sound-tap.mp3 in Resources */,
+				7D349139286BAFBD00113709 /* sound-ding.mp3 in Resources */,
+				7D32390F28C77A6F008F106D /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D34911C286BAF0D00113709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D17E14728C63B5C00002EA4 /* NewEntryView.swift in Sources */,
+				7D17E13D28C620D800002EA4 /* DataModel.xcdatamodeld in Sources */,
+				7DADA80D28732FE300E2CABF /* Constant.swift in Sources */,
+				7D349148286BB1B700113709 /* ContentView.swift in Sources */,
+				7D32390828C770A7008F106D /* ItemView.swift in Sources */,
+				7D17E13F28C6217900002EA4 /* CoreDataManager.swift in Sources */,
+				7D17E14528C6332E00002EA4 /* HideKeyboard.swift in Sources */,
+				7D32390628C76EDE008F106D /* CheckboxStyle.swift in Sources */,
+				7D349124286BAF0D00113709 /* TaskappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7D349131286BAF1000113709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D349132286BAF1000113709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D349134286BAF1000113709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Taskapp/Preview Content\"";
+				DEVELOPMENT_TEAM = LA8HRC648H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Taskapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MiTask;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotsehyde.Taskapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D349135286BAF1000113709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Taskapp/Preview Content\"";
+				DEVELOPMENT_TEAM = LA8HRC648H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Taskapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MiTask;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotsehyde.Taskapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D34911B286BAF0D00113709 /* Build configuration list for PBXProject "Taskapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D349131286BAF1000113709 /* Debug */,
+				7D349132286BAF1000113709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D349133286BAF1000113709 /* Build configuration list for PBXNativeTarget "Taskapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D349134286BAF1000113709 /* Debug */,
+				7D349135286BAF1000113709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7D17E13B28C620D800002EA4 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7D17E13C28C620D800002EA4 /* DataMode;.xcdatamodel */,
+			);
+			currentVersion = 7D17E13C28C620D800002EA4 /* DataMode;.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7D349118286BAF0D00113709 /* Project object */;
+}
