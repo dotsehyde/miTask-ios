@@ -51,6 +51,7 @@ struct ContentView: View {
                         #endif
                         Button {
                             isDark.toggle()
+                            playSound(fileName: "sound-tap", type: "mp3")
                         } label: {
                             Image(systemName: isDark ? "moon.circle.fill" : "moon.circle")
                                 .resizable()
@@ -81,8 +82,8 @@ struct ContentView: View {
                         .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.25), radius: 8, x: 0, y: 4)
                     List {
                         ForEach(items) { item in
-                        ItemView(item: item)
-                                .padding(.vertical,10)
+                            ItemView(item: item)
+                                .padding(.vertical, 10)
 
                         }.onDelete { i in
                             deleteItem(i)
@@ -92,6 +93,8 @@ struct ContentView: View {
                         .padding(.vertical, 0)
                         .frame(maxWidth: 640)
                 }//: VStack
+                .blur(radius: showNewEntry ? 8 : 0, opaque: false)
+                .transition(.move(edge: .bottom))
                 if(showNewEntry) {
                     BlankView().onTapGesture {
                         withAnimation {
@@ -108,7 +111,8 @@ struct ContentView: View {
                 .navigationBarTitle("Daily Tasks", displayMode: .large)
                 .navigationBarHidden(true)
 
-                .background(BackgroundImageView())
+                .background(BackgroundImageView()
+                .blur(radius: showNewEntry ? 8 : 0, opaque: false))
                 .background(backgroundGradient.ignoresSafeArea(.all))
         }//: NavigationView
         .navigationViewStyle(.stack)

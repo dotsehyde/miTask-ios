@@ -17,6 +17,14 @@
 		7D32390F28C77A6F008F106D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D32390C28C77A6F008F106D /* 1.png */; };
 		7D32391028C77A6F008F106D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D32390D28C77A6F008F106D /* 2.png */; };
 		7D32391128C77A6F008F106D /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D32390E28C77A6F008F106D /* 3.png */; };
+		7D32391B28C78A36008F106D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D32391A28C78A36008F106D /* WidgetKit.framework */; };
+		7D32391D28C78A37008F106D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D32391C28C78A36008F106D /* SwiftUI.framework */; };
+		7D32392028C78A37008F106D /* MiTaskWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D32391F28C78A37008F106D /* MiTaskWidget.swift */; };
+		7D32392228C78A3A008F106D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D32392128C78A3A008F106D /* Assets.xcassets */; };
+		7D32392628C78A3A008F106D /* MiTaskWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7D32391828C78A36008F106D /* MiTaskWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7D32392B28C78E20008F106D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D349127286BAF1000113709 /* Assets.xcassets */; };
+		7D32392C28C78EC2008F106D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DADA80C28732FE300E2CABF /* Constant.swift */; };
+		7D32392E28C798FB008F106D /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D32392D28C798FB008F106D /* SoundPlayer.swift */; };
 		7D349124286BAF0D00113709 /* TaskappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D349123286BAF0D00113709 /* TaskappApp.swift */; };
 		7D349128286BAF1000113709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D349127286BAF1000113709 /* Assets.xcassets */; };
 		7D34912B286BAF1000113709 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D34912A286BAF1000113709 /* Preview Assets.xcassets */; };
@@ -26,6 +34,30 @@
 		7D349148286BB1B700113709 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D349147286BB1B700113709 /* ContentView.swift */; };
 		7DADA80D28732FE300E2CABF /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DADA80C28732FE300E2CABF /* Constant.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D32392428C78A3A008F106D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D349118286BAF0D00113709 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D32391728C78A36008F106D;
+			remoteInfo = MiTaskWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7D32392A28C78A3A008F106D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7D32392628C78A3A008F106D /* MiTaskWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7D17E13C28C620D800002EA4 /* DataMode;.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DataMode;.xcdatamodel"; sourceTree = "<group>"; };
@@ -38,6 +70,13 @@
 		7D32390C28C77A6F008F106D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		7D32390D28C77A6F008F106D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		7D32390E28C77A6F008F106D /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		7D32391828C78A36008F106D /* MiTaskWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MiTaskWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D32391A28C78A36008F106D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		7D32391C28C78A36008F106D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		7D32391F28C78A37008F106D /* MiTaskWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiTaskWidget.swift; sourceTree = "<group>"; };
+		7D32392128C78A3A008F106D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D32392328C78A3A008F106D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D32392D28C798FB008F106D /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		7D349120286BAF0D00113709 /* Taskapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taskapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D349123286BAF0D00113709 /* TaskappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskappApp.swift; sourceTree = "<group>"; };
 		7D349127286BAF1000113709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +90,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7D32391528C78A36008F106D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D32391D28C78A37008F106D /* SwiftUI.framework in Frameworks */,
+				7D32391B28C78A36008F106D /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7D34911D286BAF0D00113709 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,12 +119,33 @@
 			path = ss;
 			sourceTree = "<group>";
 		};
+		7D32391928C78A36008F106D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D32391A28C78A36008F106D /* WidgetKit.framework */,
+				7D32391C28C78A36008F106D /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D32391E28C78A37008F106D /* MiTaskWidget */ = {
+			isa = PBXGroup;
+			children = (
+				7D32391F28C78A37008F106D /* MiTaskWidget.swift */,
+				7D32392128C78A3A008F106D /* Assets.xcassets */,
+				7D32392328C78A3A008F106D /* Info.plist */,
+			);
+			path = MiTaskWidget;
+			sourceTree = "<group>";
+		};
 		7D349117286BAF0D00113709 = {
 			isa = PBXGroup;
 			children = (
 				7D32390B28C77A39008F106D /* ss */,
 				7D32390928C77A21008F106D /* README.md */,
 				7D349122286BAF0D00113709 /* Taskapp */,
+				7D32391E28C78A37008F106D /* MiTaskWidget */,
+				7D32391928C78A36008F106D /* Frameworks */,
 				7D349121286BAF0D00113709 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				7D349120286BAF0D00113709 /* Taskapp.app */,
+				7D32391828C78A36008F106D /* MiTaskWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				7DADA80C28732FE300E2CABF /* Constant.swift */,
+				7D32392D28C798FB008F106D /* SoundPlayer.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -170,6 +241,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7D32391728C78A36008F106D /* MiTaskWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D32392728C78A3A008F106D /* Build configuration list for PBXNativeTarget "MiTaskWidgetExtension" */;
+			buildPhases = (
+				7D32391428C78A36008F106D /* Sources */,
+				7D32391528C78A36008F106D /* Frameworks */,
+				7D32391628C78A36008F106D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiTaskWidgetExtension;
+			productName = MiTaskWidgetExtension;
+			productReference = 7D32391828C78A36008F106D /* MiTaskWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		7D34911F286BAF0D00113709 /* Taskapp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D349133286BAF1000113709 /* Build configuration list for PBXNativeTarget "Taskapp" */;
@@ -177,10 +265,12 @@
 				7D34911C286BAF0D00113709 /* Sources */,
 				7D34911D286BAF0D00113709 /* Frameworks */,
 				7D34911E286BAF0D00113709 /* Resources */,
+				7D32392A28C78A3A008F106D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7D32392528C78A3A008F106D /* PBXTargetDependency */,
 			);
 			name = Taskapp;
 			productName = Taskapp;
@@ -194,9 +284,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1330;
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					7D32391728C78A36008F106D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 					7D34911F286BAF0D00113709 = {
 						CreatedOnToolsVersion = 13.3;
 					};
@@ -216,11 +309,21 @@
 			projectRoot = "";
 			targets = (
 				7D34911F286BAF0D00113709 /* Taskapp */,
+				7D32391728C78A36008F106D /* MiTaskWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7D32391628C78A36008F106D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D32392B28C78E20008F106D /* Assets.xcassets in Resources */,
+				7D32392228C78A3A008F106D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7D34911E286BAF0D00113709 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -240,10 +343,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7D32391428C78A36008F106D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D32392028C78A37008F106D /* MiTaskWidget.swift in Sources */,
+				7D32392C28C78EC2008F106D /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7D34911C286BAF0D00113709 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D32392E28C798FB008F106D /* SoundPlayer.swift in Sources */,
 				7D17E14728C63B5C00002EA4 /* NewEntryView.swift in Sources */,
 				7D17E13D28C620D800002EA4 /* DataModel.xcdatamodeld in Sources */,
 				7DADA80D28732FE300E2CABF /* Constant.swift in Sources */,
@@ -258,7 +371,71 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		7D32392528C78A3A008F106D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D32391728C78A36008F106D /* MiTaskWidgetExtension */;
+			targetProxy = 7D32392428C78A3A008F106D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		7D32392828C78A3A008F106D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LA8HRC648H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MiTaskWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MiTaskWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotsehyde.Taskapp.MiTaskWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D32392928C78A3A008F106D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LA8HRC648H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MiTaskWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MiTaskWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotsehyde.Taskapp.MiTaskWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		7D349131286BAF1000113709 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -376,6 +553,7 @@
 		7D349134286BAF1000113709 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -407,6 +585,7 @@
 		7D349135286BAF1000113709 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +617,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7D32392728C78A3A008F106D /* Build configuration list for PBXNativeTarget "MiTaskWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D32392828C78A3A008F106D /* Debug */,
+				7D32392928C78A3A008F106D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7D34911B286BAF0D00113709 /* Build configuration list for PBXProject "Taskapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
